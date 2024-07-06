@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Button from '@mui/material/Button';
 import Alert from '@mui/material/Alert';
-import { useNavigate } from 'react-router-dom';
+
 const UserDetail = () => {
     const[name,setname]=useState<string>()
     const[email,setemail]=useState<string>()
