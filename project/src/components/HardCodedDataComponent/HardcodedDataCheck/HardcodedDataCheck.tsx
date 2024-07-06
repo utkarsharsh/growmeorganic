@@ -19,7 +19,7 @@ const HardcodedDataCheck = ({department,sub_departments}:{department:string,
        
       }
    
-     function handlecheck (e:any){
+     function handlecheck (){
         if(check==false){
             setcount(sub_departments.length)
         }
@@ -28,7 +28,7 @@ const HardcodedDataCheck = ({department,sub_departments}:{department:string,
         }
         setsubcheck((prevState:any)=>{
             const newState = [...prevState]; 
-           let x= newState.map((e)=>{
+           let x= newState.map(()=>{
                return !check
             })
             return x;
@@ -37,7 +37,7 @@ const HardcodedDataCheck = ({department,sub_departments}:{department:string,
      }
      function arrofcheckvalue(){
        
-        setsubcheck((pre:any)=>{
+        setsubcheck(()=>{
           let makeeveronefalse=sub_departments.map(()=>{
           return false
           })
