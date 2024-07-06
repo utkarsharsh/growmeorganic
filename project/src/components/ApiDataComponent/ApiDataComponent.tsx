@@ -32,7 +32,7 @@ const ApiDataComponent = () => {
     <div>
         <div className='w-full flex justify-center items-center mt-2 mb-4'>
          <h1 className='text-2xl font-bold'>
-                Fetched Data 
+                Fetched Data Assignment
             </h1>
             </div>
             <div className='h-[100%] '>
